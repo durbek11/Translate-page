@@ -4,5 +4,6 @@ from .views import *
 app_name = 'translate'
 
 urlpatterns = [
-    path('<slug:slug>', home, name='home')
+    path('', home, name='home'),
+    path('<slug:slug>', malumot, name='malumot')
 ]

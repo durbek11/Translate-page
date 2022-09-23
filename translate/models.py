@@ -8,5 +8,6 @@ class TranslatePage(models.Model):
 
     def __str__(self):
         return self.name
+        
     def get_absolute_url(self):
-        return reverse('translate:home', kwargs={'slug': self.slug})
+        return reverse('translate:malumot', kwargs={'slug': self.slug})
