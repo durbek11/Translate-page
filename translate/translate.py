@@ -1,6 +1,7 @@
 from modeltranslation.translator import register, TranslationOptions
-from .models import TranslatePage
+from .models import *
+
 
 @register(TranslatePage)
-class MalumotTranslateOption(TranslateOptions):
-    fields = ('name', 'title', )
+class Malumot(TranslationOptions):
+    fields = ('name', 'title',)
