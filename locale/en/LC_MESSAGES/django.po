@@ -8,15 +8,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-23 16:20+0500\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2022-09-26 13:49+0500\n"
+"PO-Revision-Date: 2022-09-26 13:59+0000\n"
+"Last-Translator:   <DDDDD@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Translated-Using: django-rosetta 0.9.8\n"
+
 #: .\core\settings.py:106
 msgid "Uzbek"
 msgstr ""
@@ -25,10 +27,14 @@ msgstr ""
 msgid "English"
 msgstr ""
 
-#: .\templates\malumot.html:19
-msgid "mening ishim"
-msgstr "my work"
-
 #: .\templates\malumot.html:20
+msgid "mening ishim"
+msgstr "my django"
+
+#: .\templates\malumot.html:21
 msgid "bahor"
 msgstr "spring"
+
+#: .\templates\malumot.html:22
+msgid "hello every body. my name is Durbek"
+msgstr "Salom hammaga. mening ismim Durbek"

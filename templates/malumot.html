@@ -16,6 +16,11 @@
 </form>
 <h1>{{ malumot.name }}</h1>
 <h3>{{ malumot.title }}</h3>
+<h1>{{ malumot.me }}</h1>
 <h1>{% trans "mening ishim" %}</h1>
 <h3>{% trans "bahor" %}</h3>
-<h1>hello every body. My name`s Durbek</h1>
+<h1>{% trans "hello every body. my name is Durbek" %}</h1>
+#  python manage.py makemessages -l en -i .venv
+#  malumot kiritishdan oldin terminalga kiritiladi
+#  python manage.py compilemessages
+#  malumotlar kiritilgandan so`ng uni yurgazish uchun terminalga kiritiladi

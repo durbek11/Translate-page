@@ -6,6 +6,6 @@ def home(request):
     
     return render(request, "home.html")
 
-def malumot(request, slug):
-    malumot = get_object_or_404(TranslatePage, slug=slug)
+def malumot(request):
+    malumot = get_object_or_404(TranslatePage)
     return render(request, "malumot.html", {"malumot":malumot})

@@ -3,11 +3,9 @@ from django.urls import reverse
 
 class TranslatePage(models.Model):
     name = models.CharField(max_length=100)
-    slug = models.SlugField(unique=True)
     title = models.CharField(max_length=100)
+    me = models.CharField(max_length=200)
 
     def __str__(self):
         return self.name
         
-    def get_absolute_url(self):
-        return reverse('translate:malumot', kwargs={'slug': self.slug})
