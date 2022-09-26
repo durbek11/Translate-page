@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-26 13:49+0500\n"
-"PO-Revision-Date: 2022-09-26 13:59+0000\n"
+"POT-Creation-Date: 2022-09-26 14:30+0500\n"
+"PO-Revision-Date: 2022-09-26 14:31+0000\n"
 "Last-Translator:   <DDDDD@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
@@ -19,22 +19,23 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Translated-Using: django-rosetta 0.9.8\n"
 
-#: .\core\settings.py:106
+#: .\core\settings.py:107
 msgid "Uzbek"
 msgstr ""
 
-#: .\core\settings.py:107
+#: .\core\settings.py:108
 msgid "English"
 msgstr ""
 
-#: .\templates\malumot.html:20
+#: .\templates\malumot.html:18
 msgid "mening ishim"
 msgstr "my django"
 
-#: .\templates\malumot.html:21
+#: .\templates\malumot.html:19
 msgid "bahor"
 msgstr "spring"
 
-#: .\templates\malumot.html:22
-msgid "hello every body. my name is Durbek"
-msgstr "Salom hammaga. mening ismim Durbek"
+#: .\templates\malumot.html:20
+#| msgid "salom hammaga mening ismim Durbek"
+msgid "salom hammaga mening ismim Durbek"
+msgstr "hello every body. my name is Durbek"
